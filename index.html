@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfoli Website </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <div id="wrapper">
+        <div class="container">
+            <div class="navbar">
+
+                <div class="logo-container">
+                    <img src="./image/vlogo.png" alt="" class="logo">
+                    <div class="logo-text">ikash</div>
+                </div>
+
+                <div class="nav-items">
+                    <div><a href="#home">Home</a></div>
+                    <div><a href="#projects">Projects</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#contactme">Contact me</a></div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="hero-section">
+
+            <div class="hero-section-left">
+                <div class="hero-section-heading">Hi my name is <span class="my-name">Vikash</span></div>
+
+                <div class="hero-section-heading hero-section-sub-heading">
+                    I am a <span class="role"></span>  
+                </div>
+
+                <div class="hero-section-description">
+                     Here is my Portfolio Website. Here You will learn about my Journey
+                     as a Frontend Developer.
+                </div>
+                <button class="btn1">Download CV</button>
+            </div>
+            <div class="hero-section-right">
+                <div class="hero-pic">
+                    <img src="./image/mypic.jpg.png" alt="">
+                </div>
+            </div>
+        </div>
+   </div>
+   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+   <script>
+    var typed = new Typed(".role",{
+        strings: ["Front End Developer","Programmer"],
+        loop :true,
+        typeSpeed:100,
+        backSpeed:80,
+        backDelay:1000,
+    });
+   </script>
+</body>
+</html>

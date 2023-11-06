@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+#wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;  /*x dir me scroll nhi krna*/
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+     justify-content: space-between;     /* extreme positon par aajaye */
+    align-items: center;     /*for verticall center*/
+
+    padding-top: 1rem;  /*root element ke hisb se*/
+}
+
+.logo{
+    width: 80px;
+}
+
+.logo-text{
+    margin-left: -1.2rem ;
+    font-size: 34px;
+    font-weight:bolder;
+}
+.logo-container{
+    display: flex;
+    justify-content: baseline; /*logo and text single line agye*/
+    align-items: center;
+}
+
+.nav-items{
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-items div{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight:500;
+}
+
+.nav-items div a{
+    color: black;
+}
+
+a{
+    text-decoration: none; 
+}
+
+.nav-items div:hover{
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+.hero-section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 8rem auto;
+    padding: 0 1rem;
+    padding-bottom: 8rem;
+}
+
+.hero-pic img{
+    height: 315px;
+    width: 315px;
+    margin-left: -7.8rem;
+}
+
+.hero-section-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.hero-section-heading{
+    font-size: 35px;
+    color: #343d68;
+    font-weight: 500;
+}
+
+.role{
+    color: #4e45d5;
+    font-weight: 800;
+}
+
+.my-name{
+    color: #4e45d5;
+    font-weight: bold;
+}
+
+.hero-section-sub-heading{
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.hero-section-description{
+    margin-top: 1rem;
+    width: 70%;
+    font-weight: 500;
+}
+
+.btn1{
+    background-color: #645ce4;
+    padding: 11px 0;
+    width: 7vw;
+    border-radius: 12px;
+    border-style: none;
+    font-size: 14px;
+    color : white;
+    font-weight: bold;
+    box-shadow: 2px 3px 6px 0px #714e4e;
+    
+}
+
+.btn1:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+    transition: all 0.8s;
+    /* transition: all background-color .1s ease; */
+}
+
+
